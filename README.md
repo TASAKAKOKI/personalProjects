@@ -1,8 +1,9 @@
 # personalProjects
-목표
-    project들을 관리하고, daily 미션들을 관리하는 페이지 제작
+목표:
+project들을 관리하고, daily 미션들을 관리하는 페이지 제작
 
 페이지레이아웃 (총 4개 html 파일)
+```
     0. main.html
         - 메인 데드라인 설정
         - 'Set Your Main Deadline...'
@@ -69,9 +70,11 @@
                 - Pending Projects List에서 done버튼 클릭된 project.이름만 표출
                 - undone버튼 클릭 시, Pending Projects List로 이동
 
-    2. manage things todo
+    2. todo.html
         - 상단에는 project.html과 chart.html로 이동하는 버튼이 양 극단에 위치
         - 화면 메인에는 목표기한(default setting?)
     
-    3. chart -weekly / monthly / quarter
+    3. chart.html (weekly / monthly / quarter)
+
+```
 eL : eventListener('click',handlerFunction);
