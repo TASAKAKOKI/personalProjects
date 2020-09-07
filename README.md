@@ -1,22 +1,27 @@
 # personalProjects
 목표:
-project들을 관리하고, daily 미션들을 관리하는 페이지 제작
+    deadline을 설정하고,
+    project들을 관리하고,
+    매일 daily 미션들을 실행, 저장하여
+    daily, weekly, monthly, quaterly 진행상황을 나타내주는 페이지 제작
 
 페이지레이아웃 (총 4개 html 파일)
+main.html, project.html, todo.html, chart.html (,+ chart-daily, chart-weekly, ... )
 ```
-    0. main.html
-        - 메인 데드라인 설정
-        - 'Set Your Main Deadline...'
-        - 화면 중앙에 달력이 있고, 날짜를 선택하여 submit하면 project.html 페이지로 이동
-        - 화면 상단 좌측 navi :
-            - 'd'버튼 클릭시, main.html 페이지로 이동.
-            - 'p'버튼은 selected 되어 있는 상태.
-            - 't'버튼 클릭시, todo.html 페이지로 이동.
-            - 'c'버튼 클릭시, chart.html 페이지로 이동.
-        requirements:
-            - 배경 이미지 랜덤 선택 및 띄우기
-            - submit버튼에 (eL) 적용
-            - 달력 띄우기
+0. main.html
+    <!-- - 이름 prompt -->
+    - 메인 데드라인 설정
+    - 'Set Your Main Deadline...'
+    - 화면 중앙에 달력이 있고, 날짜를 선택하여 submit하면 project.html 페이지로 이동
+    - 화면 상단 좌측 navi :
+        - 'd'버튼 클릭시, main.html 페이지로 이동.
+        - 'p'버튼은 selected 되어 있는 상태.
+        - 't'버튼 클릭시, todo.html 페이지로 이동.
+        - 'c'버튼 클릭시, chart.html 페이지로 이동.
+    requirements:
+        - 배경 이미지 랜덤 선택 및 띄우기
+        - submit버튼에 (eL) 적용
+        - 달력 띄우기
 
     1. project.html
         - setting Projects
