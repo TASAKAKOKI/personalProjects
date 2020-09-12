@@ -10,18 +10,21 @@
 </head>
 <body>
     <section id="backgroundImg"></section>
-    <h1 id="outputName"></h1>
-    <section id="askName">
-        <form id="inputForm" method="put">
-            <label> What's your name?
-                <input name="inputName" type="text" style="display:block">
-            </label>
-        </form>
+    <section id='mainPageFlex'>
+        <h1 id="outputName"></h1>
+        <section id="askName" class="visible">
+            <form id="inputForm" method="put">
+                <label> What's your name?
+                    <input name="inputName" type="text" style="display:block" autocomplete="off">
+                </label>
+            </form>
+        </section>
+        <section id="calendar" class="hidden">
+            <p>Set Your Main Deadline..</p>
+            <p>calendar will visible here</p>
+        </section>
     </section>
-    <section id="calendar" class="hidden">
-        <p>Set Your Main Deadline..</p>
-        <p>calendar will visible here</p>
-    </section>
+
     <!-- onkeypress="JavaScript:if(event.keyCode==13) {localStorage.setItem('userName') = }" -->
     <script src="./bgChange/bgChange.js"></script>      
     <script src="./inputName/inputName.js"></script>  

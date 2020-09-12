@@ -49,12 +49,16 @@ function init() {
         outputName.innerText = `Hello, ${localStorage.getItem('userName')}`;
         title.innerText = `Hello, ${localStorage.getItem('userName')}`;
         askNameSection.classList.add('hidden');
+        askNameSection.classList.remove('visible');
         calendarSection.classList.remove('hidden');    
+        calendarSection.classList.add('visible');
     } else {
         outputName.innerText = 'Hello, World';
         title.innerText = 'Hello, World';
         askNameSection.classList.remove('hidden');
+        askNameSection.classList.add('visible');
         calendarSection.classList.add('hidden');
+        calendarSection.classList.remove('visible');
     }
 }
 // input창에서 keydown이벤트가 발생할때 마다 눌린 키가 enter인지는 확인하는 함수를 호출

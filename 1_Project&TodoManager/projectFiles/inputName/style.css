@@ -1,3 +1,18 @@
 .hidden {
     display: none;
 }
+#mainPageFlex {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+h1#outputName {
+    text-align: center;
+}
+#askName.visible, #calendar.visible {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: center;
+}
